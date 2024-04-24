@@ -11,3 +11,293 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar {
+  height: 90px;
+  background: rgb(236,238,174);
+  background: linear-gradient(90deg, rgba(236,238,174,1) 33%, rgba(255,217,241,0.9922093837535014) 100%);
+  position: relative;
+  box-shadow:0px 2px 2px #cecece
+}
+
+.navbar--heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar--logo {
+  width: 120px;
+  height: 80px;
+
+}
+
+.navbar--div {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+
+}
+
+.navbar--elements ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.navbar--elements ul li {
+  margin-right: 60px;
+}
+
+.navbar--elements ul li:hover {
+  text-decoration: underline;
+}
+
+
+.navbar--elements ul a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #2f234f;
+  text-decoration: none;
+}
+
+.about-container-1 {
+  display: flex;
+  margin: 80px auto;
+  width: 80%;
+  padding: 50px;
+
+}
+
+
+.about--text {
+  width: 100%;
+  text-align: left;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.about--text h1 {
+  font-size: 70px;
+}
+
+.about--profileimg {
+  width: 80%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.about--container-2 {
+  display: flex;
+  margin: 80px auto;
+  width: 60%;
+  padding: 20px;
+  }
+
+
+.whoami--text {
+  text-align: left;
+}
+
+.about--container-3 {
+  margin: 80px auto;
+  width: 60%;
+  padding: 20px;
+  text-align: left;
+  }
+
+.about--designrow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+  
+.about--designcolumn {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+  
+ .column-14 {
+    background-color: #b5b5b5;
+    height: 100%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 0px 20px 0px 20px;
+    display: inline-block;
+  }
+
+  .column-23 {
+    background-color: #C8C8C8;
+    height: 100%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px 0px 20px 0px;
+    display: inline-block;
+  }
+  
+
+.about-container-4 {
+  display: flex;
+  margin: 80px auto;
+  width: 80%;
+  padding: 50px;
+
+}
+
+
+.about--endtext {
+  width: 50%;
+  text-align: left;
+  padding: 20px;
+  margin-right: auto;
+}
+  
+.about--socialicons-div {
+  display: flex;
+  align-items: center;
+  margin: auto 3px;
+}
+
+.about--socialicons {
+  margin-right: 20px;
+}
+
+.projectcard--div {
+  display: flex;
+  padding: 10px;
+  margin: 50px;
+  height: 250px;
+}
+
+.projectcard--imgdiv {
+  width: 50%;
+  margin-right: 30px;
+}
+
+.projectcard--image {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.projectcard--descriptiondiv {
+  width: 100%;
+  text-align: left;
+  padding-left: 20px;
+}
+
+
+.wipropage--headingdiv {
+  margin: 60px  60px;
+  margin-bottom: -100px;
+  text-align: left;
+  padding: 30px;
+}
+
+.wipropage--horizontalline {
+  margin-top: 50px;
+}
+
+.wipropage--descriptiondiv {
+  display: flex;
+  margin: 80px  60px;
+  padding: 30px;
+
+}
+
+.wipropage--overview {
+  width: 60%;
+  padding: 20px;
+  text-align: left;
+}
+
+.wipropage--overview p {
+  max-width: 70%;
+}
+
+
+
+.wipropage--roledetails {
+  width: 30%;
+  text-align: left;
+  padding-left: 40px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.wipropage--imagediv {
+  display: flex;
+  margin: 80px  60px;
+  padding: 30px;
+}
+
+.wipropage--image1div {
+  width: 50%;
+  text-align: left;
+}
+
+.klimage1 {
+  width: 100%;
+  height: 100%;
+}
+
+.wipropage--image2div {
+  width: 50%;
+  padding-left: 40px;
+  text-align: right;
+  display: flex;
+}
+
+.klimage2 {
+  width: 100%;
+}
+
+.work--projectdiv {
+  display: flex;
+  padding: 10px;
+  margin: 50px;
+  height: 250px;
+}
+
+.work--griddiv {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-gap: 10px;
+  margin: 40px 40px;
+}
+
+.minicard--div {
+  background-color: rgb(240, 214, 214);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.minicard--imagediv {
+  padding: 10px 10px;
+  margin: 10px 10px;
+}
+
+.minicard--image {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.minicard--description {
+  text-align: justify;
+  margin: 3px 10px;
+  font-size: 13px;
+}
