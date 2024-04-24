@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.8a45d49c.css",
+    "main.js": "/portfolio/static/js/main.eb4ae5c6.js",
+    "static/js/453.acca0757.chunk.js": "/portfolio/static/js/453.acca0757.chunk.js",
+    "static/media/fake-news.png": "/portfolio/static/media/fake-news.e02b5e11b722bcd15c8a.png",
+    "static/media/clv.png": "/portfolio/static/media/clv.a5182393a162f1ec4ed9.png",
+    "static/media/dbms.png": "/portfolio/static/media/dbms.c32baa34be729eed7efe.png",
+    "static/media/network-analytics.png": "/portfolio/static/media/network-analytics.d18db348e3329ba3426e.png",
+    "static/media/ar-vr.png": "/portfolio/static/media/ar-vr.f90263c05a6e7f40ac5f.png",
+    "static/media/kl-1.PNG": "/portfolio/static/media/kl-1.b969bbc5e2950d13d95a.PNG",
+    "static/media/kl-2.PNG": "/portfolio/static/media/kl-2.3810d7834ea13141be15.PNG",
+    "static/media/profile-img.jpg": "/portfolio/static/media/profile-img.19e5fb1a2fc414764bfb.jpg",
+    "static/media/name-logo.png": "/portfolio/static/media/name-logo.0a58596c88b19470fde2.png",
+    "index.html": "/portfolio/index.html",
+    "main.8a45d49c.css.map": "/portfolio/static/css/main.8a45d49c.css.map",
+    "main.eb4ae5c6.js.map": "/portfolio/static/js/main.eb4ae5c6.js.map",
+    "453.acca0757.chunk.js.map": "/portfolio/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a45d49c.css",
+    "static/js/main.eb4ae5c6.js"
+  ]
+}
