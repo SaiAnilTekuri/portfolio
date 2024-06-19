@@ -19,7 +19,7 @@ function Navbar() {
                             <Link to="/about">About</Link>
                         </li>
                         <li>
-                            <a href="https://drive.google.com/file/d/1uHuMhGcSCARDAFpt_3fqN2EOa_1P6QD1/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
+                            <a href="https://drive.google.com/file/d/1uHuMhGcSCARDAFpt_3fqN2EOa_1P6QD1/view?usp=sharing" target="_blank">Resume</a>
                         </li>
                     </ul>
                 </div>
